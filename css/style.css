@@ -34,3 +34,24 @@ html body
 
     background-color: rgba(251, 251, 251, .7);
 }
+.logo
+{
+    font-family: 'Russo One', sans-serif;font-size: 30px;
+    font-weight: 700;
+}
+.title
+{
+    color: white;
+}
+.nav > li > a
+{
+    font-weight: bold;
+
+    color: black;
+}
+.active > a
+{
+    font-weight: bold;
+
+    color: green !important;
+}

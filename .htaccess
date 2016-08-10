@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^about$ ./about.php [nc,qsa]
+RewriteRule ^contact$ ./contact.php [nc,qsa]
+RewriteRule ^gallery$ ./gallery.php [nc,qsa]
+RewriteRule ^home$ ./index.php [nc,qsa]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .  index.php [L,QSA]
